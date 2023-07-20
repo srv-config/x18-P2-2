@@ -11,7 +11,7 @@
 //	Type: Type of event:
 //		~ 1: Chaos Castle
 //		~ 2: Blood Castle
-//		~ 3: Illusuin Temple
+//		~ 3: Illusion Temple
 //		~ 4: Doppelganger
 //		~ 5: None
 //		~ 6: None
@@ -29,8 +29,9 @@
 //		~ 18: Labyrinth
 //		~ 19: 4th Quest
 //		~ 20: Mu Mobile
-//		~ 21: Boss Battle Main (mission 0)
-//		~ 22: Boss Battle Bonus (mission 1~2)
+//		~ 22: Boss Battle Main (mission 0)
+//		~ 23: Boss Battle Bonus (mission 1~2)
+//		~ 24: SeasonPass Reward
 //		~ 100: GM Gift
 //
 //	Time: Time the reward is available to pick up from gremory case, seconds
@@ -72,8 +73,9 @@
 			<Use Type="18" Time="3600" Name="Labyrinth" />
 			<!-- <Use Type="19" Time="3600" Name="4th Quest" /> -->
 			<!-- <Use Type="20" Time="3600" Name="Mu Mobile" /> -->
-			<Use Type="21" Time="3600" Name="Boss Battle Main" />
-			<Use Type="22" Time="3600" Name="Boss Battle Bonus" />
+			<Use Type="22" Time="3600" Name="Boss Battle Main" />
+			<Use Type="23" Time="3600" Name="Boss Battle Bonus" />
+			<Use Type="24" Time="86400" Name="SeasonPass Reward" />
 			<Use Type="100" Time="86400" Name="GM Gift" />
 		</General>
 		<PersonalShop>

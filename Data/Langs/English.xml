@@ -856,6 +856,8 @@
 		<Msg ID="830" Text="[System] The server version is not up-to-date, consider updating." /> <!-- Thrown to Admin/GM if server is not running on latest version of the season -->
 		<Msg ID="831" Text="[System] The server is running on test version that will be disabled at the end of test cycle." /> <!-- Thrown to Admin/GM if server is running on test version that will expiry -->
 		<Msg ID="832" Text="[System] The server is running on vulnerable version, update as quick as possible." /> <!-- Thrown to Admin/GM if server is running on version that has been identified as vulnerable -->
+		<Msg ID="833" Text="Voucher Exchange is not available at present." />
+		<Msg ID="834" Text="You need a 4x4 space in your inventory." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
@@ -988,5 +990,6 @@
 		<Msg ID="137" Text="Kanturu Undergrounds" />
 		<Msg ID="138" Text="Volcano Ignis" />
 		<Msg ID="139" Text="Boss Zone (entrance)" />
+		<Msg ID="140" Text="Bloody Tarkan" />
 	</Map>
 </Language>

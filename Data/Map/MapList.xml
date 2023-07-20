@@ -167,6 +167,7 @@
 		<Map Number="137" File="137_Kanturu_Undergrounds.att" />
 		<Map Number="138" File="138_Volcano_Ignis.att" />
 		<Map Number="139" File="139_BossBattle.att" />
+		<Map Number="140" File="140_BloodyTarkan.att" />
 	</DefaultMaps>
 	
 	<CrywolfEventAttr>

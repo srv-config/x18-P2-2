@@ -338,7 +338,6 @@
 	</TypeOne>	
 	<TypeTwo>
 	<!-- Lorencia -->
-	<Tag Id="0" MapNumber="129" X="121" Y="81" Name="Elite Zone" />
 		<Tag Id="0" MapNumber="0" X="121" Y="232" Name="Dungeon Entrance" />
 		<Tag Id="1" MapNumber="0" X="177" Y="31" Name="Deep Dungeon Entrance" />
 		<Tag Id="2" MapNumber="0" X="1" Y="38" Name="Devias Entrance" />
@@ -386,6 +385,7 @@
 		<Tag Id="0" MapNumber="8" X="250" Y="40" Name="Atlans Entrance" />
 		<Tag Id="1" MapNumber="8" X="3" Y="199" Name="Kanturu Ruins Entrance" />
 		<Tag Id="2" MapNumber="8" X="177" Y="39" Name="Ferea Entrance" />
+		<Tag Id="3" MapNumber="8" X="109" Y="237" Name="Bloody Tarkan Entrance" />
 	<!-- Icarus -->
 		<Tag Id="0" MapNumber="10" X="13" Y="8" Name="Lost Tower Entrance" />
 	<!-- Land of Trials -->
@@ -569,5 +569,14 @@
 		<Tag Id="3" MapNumber="138" X="47" Y="223" Name="Wind - Elite Zone" />
 		<Tag Id="4" MapNumber="138" X="214" Y="196" Name="Darkness - Elite Zone" />
 		<Tag Id="5" MapNumber="138" X="119" Y="116" Name="Vulcanus Entrance" />
+	<!-- Bloody Tarkan -->
+		<Tag Id="0" MapNumber="140" X="29" Y="48" Name="Fire Elite Zone" />
+		<Tag Id="1" MapNumber="140" X="234" Y="221" Name="Water Elite Zone" />
+		<Tag Id="2" MapNumber="140" X="86" Y="109" Name="Earth Elite Zone" />
+		<Tag Id="3" MapNumber="140" X="30" Y="217" Name="Wind Elite Zone" />
+		<Tag Id="4" MapNumber="140" X="228" Y="27" Name="Darkness Elite Zone" />
+		<Tag Id="5" MapNumber="140" X="139" Y="59" Name="Portal (A)" />
+		<Tag Id="6" MapNumber="140" X="163" Y="165" Name="Portal (B)" />
+		<Tag Id="7" MapNumber="140" X="134" Y="21" Name="Tarkan Entrance" />
 	</TypeTwo>
 </MiniMapObjects>

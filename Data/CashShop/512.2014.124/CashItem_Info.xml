@@ -77,6 +77,8 @@
 //		2: Pet/Item/Buff with (usually with expiry date) that are being activated from inventory item, e.g. Oak Charm
 //		3: Character Card
 //		4: VIP (Golden Channel) Card
+//		5: Season Pass Ticket
+//		6: Season Pass Voucher
 //
 // Duration: Defines a duration of item effect or item expiration date, expression of the value depends on configuration of item type
 //		Type 1: Minutes
@@ -805,4 +807,13 @@
 	<Item GUID="894" ID="1096" Cat="13" Index="124" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="4" Duration="3" Description="Paid Channel Access Ticket - 3 days" />
 	<Item GUID="894" ID="1097" Cat="13" Index="124" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="4" Duration="7" Description="Paid Channel Access Ticket - 7 days" />
 	<Item GUID="894" ID="1098" Cat="13" Index="124" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="4" Duration="30" Description="Paid Channel Access Ticket - 30 days" />
+	<Item GUID="895" ID="1099" Cat="20" Index="123" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="6" Duration="0" Description="Gold Pass Voucher" />
+	<Item GUID="896" ID="1100" Cat="20" Index="124" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="6" Duration="0" Description="Premium Pass Voucher" />
+	<Item GUID="897" ID="1101" Cat="20" Index="122" Level="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="5" Duration="0" Description="Pass Ticket X1" />
+	<Item GUID="897" ID="1102" Cat="20" Index="122" Level="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="5" Duration="0" Description="Pass Ticket X5" />
+	<Item GUID="897" ID="1103" Cat="20" Index="122" Level="0" Durability="10" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="5" Duration="0" Description="Pass Ticket X10" />
+	<Item GUID="898" ID="1104" Cat="13" Index="124" Level="1" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="4" Duration="30" Description="Brozne VIP" />
+	<Item GUID="899" ID="1106" Cat="13" Index="124" Level="2" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="4" Duration="30" Description="Silver VIP" />
+	<Item GUID="900" ID="1108" Cat="13" Index="124" Level="3" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="4" Duration="30" Description="Gold VIP" />
+	<Item GUID="901" ID="1110" Cat="13" Index="124" Level="4" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" Element="0" Type="4" Duration="30" Description="Platinum VIP" />
 </CashItemInfo>

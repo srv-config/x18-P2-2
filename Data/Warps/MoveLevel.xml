@@ -89,4 +89,5 @@
 	<Move Level="1160" MapNumber="136" StartX="1" StartY="1" EndX="255" EndY="255" Name="Blaze Kethotum" />
 	<Move Level="1190" MapNumber="137" StartX="1" StartY="1" EndX="255" EndY="255" Name="Kanturu Undergrounds" />
 	<Move Level="1220" MapNumber="138" StartX="1" StartY="1" EndX="255" EndY="255" Name="Ignis Volcano" />
+	<Move Level="1250" MapNumber="140" StartX="1" StartY="1" EndX="255" EndY="255" Name="Bloody Tarkan" />
 </MoveSettings>

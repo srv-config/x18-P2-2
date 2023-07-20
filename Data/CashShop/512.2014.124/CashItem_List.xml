@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN ShopCategory MuOnline Server files.
 // ============================================================
@@ -30,12 +30,8 @@
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
+
 <CashItemList>
-	<Item GUID="142" iIndex="385" iSubIndex="0" OptionSelect="0" PackageID="0" CoinType="1" CoinValue="2000" UniqueID1="500" UniqueID2="579" ShopCategory="57" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
-	<Item GUID="143" iIndex="384" iSubIndex="0" OptionSelect="0" PackageID="0" CoinType="1" CoinValue="2000" UniqueID1="499" UniqueID2="578" ShopCategory="57" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
-	<Item GUID="144" iIndex="386" iSubIndex="0" OptionSelect="0" PackageID="0" CoinType="1" CoinValue="2000" UniqueID1="501" UniqueID2="580" ShopCategory="57" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
-	<Item GUID="145" iIndex="387" iSubIndex="0" OptionSelect="0" PackageID="0" CoinType="1" CoinValue="4800" UniqueID1="502" UniqueID2="581" ShopCategory="57" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
-	<Item GUID="146" iIndex="388" iSubIndex="0" OptionSelect="0" PackageID="0" CoinType="1" CoinValue="4800" UniqueID1="503" UniqueID2="582" ShopCategory="57" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
 	<Item GUID="147" iIndex="389" iSubIndex="0" OptionSelect="0" PackageID="0" CoinType="1" CoinValue="3200" UniqueID1="504" UniqueID2="583" ShopCategory="57" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
 	<Item GUID="148" iIndex="496" iSubIndex="0" OptionSelect="0" PackageID="0" CoinType="1" CoinValue="12000" UniqueID1="588" UniqueID2="678" ShopCategory="57" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
 	<Item GUID="149" iIndex="495" iSubIndex="0" OptionSelect="0" PackageID="0" CoinType="1" CoinValue="12000" UniqueID1="587" UniqueID2="677" ShopCategory="57" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
@@ -261,4 +257,13 @@
 	<Item GUID="549" iIndex="492" iSubIndex="508" OptionSelect="675" PackageID="0" CoinType="0" CoinValue="1600" UniqueID1="585" UniqueID2="675" ShopCategory="27" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
 	<Item GUID="551" iIndex="99" iSubIndex="508" OptionSelect="37" PackageID="0" CoinType="0" CoinValue="50" UniqueID1="22" UniqueID2="37" ShopCategory="27" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
 	<Item GUID="552" iIndex="99" iSubIndex="508" OptionSelect="38" PackageID="0" CoinType="0" CoinValue="200" UniqueID1="22" UniqueID2="38" ShopCategory="27" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="" />
+	<Item GUID="553" iIndex="531" iSubIndex="508" OptionSelect="0" PackageID="0" CoinType="0" CoinValue="5900" UniqueID1="895" UniqueID2="1099" ShopCategory="58" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="Gold Pass Voucher" />
+	<Item GUID="554" iIndex="532" iSubIndex="508" OptionSelect="0" PackageID="0" CoinType="0" CoinValue="19800" UniqueID1="896" UniqueID2="1100" ShopCategory="58" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="Premium Pass Voucher" />
+	<Item GUID="569" iIndex="536" iSubIndex="508" OptionSelect="1101" PackageID="0" CoinType="0" CoinValue="1000" UniqueID1="897" UniqueID2="1101" ShopCategory="58" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="Pass Ticket X1" />
+	<Item GUID="570" iIndex="536" iSubIndex="508" OptionSelect="1102" PackageID="0" CoinType="0" CoinValue="5000" UniqueID1="897" UniqueID2="1102" ShopCategory="58" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="Pass Ticket X5" />
+	<Item GUID="571" iIndex="536" iSubIndex="508" OptionSelect="1103" PackageID="0" CoinType="0" CoinValue="10000" UniqueID1="897" UniqueID2="1103" ShopCategory="58" GPRewardValue="0" CanBuy="1" CanGift="1" RandomItemSelect="0" Description="Pass Ticket X10" />
+	<Item GUID="572" iIndex="537" iSubIndex="508" OptionSelect="0" PackageID="0" CoinType="0" CoinValue="5000" UniqueID1="898" UniqueID2="1104" ShopCategory="59" GPRewardValue="0" CanBuy="1" CanGift="0" RandomItemSelect="0" Description="Brozne VIP" />
+	<Item GUID="573" iIndex="538" iSubIndex="508" OptionSelect="0" PackageID="0" CoinType="0" CoinValue="7500" UniqueID1="899" UniqueID2="1106" ShopCategory="59" GPRewardValue="0" CanBuy="1" CanGift="0" RandomItemSelect="0" Description="Silver VIP" />
+	<Item GUID="574" iIndex="539" iSubIndex="508" OptionSelect="0" PackageID="0" CoinType="0" CoinValue="10000" UniqueID1="900" UniqueID2="1108" ShopCategory="59" GPRewardValue="0" CanBuy="1" CanGift="0" RandomItemSelect="0" Description="Gold VIP" />
+	<Item GUID="575" iIndex="540" iSubIndex="508" OptionSelect="0" PackageID="0" CoinType="0" CoinValue="12500" UniqueID1="901" UniqueID2="1110" ShopCategory="59" GPRewardValue="0" CanBuy="1" CanGift="0" RandomItemSelect="0" Description="Platinum VIP" />
 </CashItemList>

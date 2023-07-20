@@ -46,7 +46,7 @@
 //	ReqLevel: Input item level, 0-15
 //	ItemCatX: Input item category
 //	ItemLevelX: Input item level, 0-15
-//	ItemCountX: Numer of inout items
+//	ItemCountX: Number of input items
 ///	ReqMoney: Money required for the mix, Zen
 //	SuccessRate: Mix success rate, n/1000000
 //	FailType: Action to take after mix failure 
@@ -77,8 +77,8 @@
 //	ResultItemIndex: Result item index
 //	ResultItemLevel: Result item level, 0-15
 //
-// ### GuardianItemMix::UpgradeSpecialResult ###
-//	MinUpgradeLevel: Minimum level of upgrade mix, refers to ID attribute of GuardianItemUpgrade section
+// ### GuardianItemMix::UpgradeSpecial::Result ###
+//	ReqGuardianNum: Minimum level of upgrade mix, refers to ID attribute of GuardianItemUpgrade section
 //	ItemCat: Special reward item category
 //	ItemIndex: Special reward item index
 //	Probability: Chance to obtain special reward, n/1000000
@@ -122,6 +122,7 @@
 		<Mix ReqGuardianNum="2" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
 		<Mix ReqGuardianNum="3" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
 		<Mix ReqGuardianNum="4" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
+		<Mix ReqGuardianNum="5" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
 	</GuardianItemOptChange>
 	
 	<GuardianItemUpgrade>																							
@@ -150,10 +151,21 @@
 		<Mix ID="22" MainItemCat="12" MainItemIndex="76" MainItemLevel="13" MainItemDur="1" SubItemCat1="20" SubItemIndex1="84" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="800000" ResultItemCat="12" ResultItemIndex="83" ResultItemLevel="0" />
 		<Mix ID="23" MainItemCat="12" MainItemIndex="76" MainItemLevel="14" MainItemDur="1" SubItemCat1="20" SubItemIndex1="84" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="900000" ResultItemCat="12" ResultItemIndex="83" ResultItemLevel="0" />
 		<Mix ID="24" MainItemCat="12" MainItemIndex="76" MainItemLevel="15" MainItemDur="1" SubItemCat1="20" SubItemIndex1="84" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="1000000" ResultItemCat="12" ResultItemIndex="83" ResultItemLevel="0" />
+		<Mix ID="25" MainItemCat="12" MainItemIndex="83" MainItemLevel="11" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="600000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
+		<Mix ID="26" MainItemCat="12" MainItemIndex="83" MainItemLevel="12" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="700000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
+		<Mix ID="27" MainItemCat="12" MainItemIndex="83" MainItemLevel="13" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="800000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
+		<Mix ID="28" MainItemCat="12" MainItemIndex="83" MainItemLevel="14" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="900000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
+		<Mix ID="29" MainItemCat="12" MainItemIndex="83" MainItemLevel="15" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="1000000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
+		<Mix ID="30" MainItemCat="12" MainItemIndex="84" MainItemLevel="11" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="600000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
+		<Mix ID="31" MainItemCat="12" MainItemIndex="84" MainItemLevel="12" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="700000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
+		<Mix ID="32" MainItemCat="12" MainItemIndex="84" MainItemLevel="13" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="800000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
+		<Mix ID="33" MainItemCat="12" MainItemIndex="84" MainItemLevel="14" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="900000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
+		<Mix ID="34" MainItemCat="12" MainItemIndex="84" MainItemLevel="15" MainItemDur="1" SubItemCat1="20" SubItemIndex1="119" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="1000000" ResultItemCat="12" ResultItemIndex="93" ResultItemLevel="0" />
 	</GuardianItemUpgrade>																																												
 	<UpgradeSpecial>
 		<Result ReqGuardianNum="2" ItemCat="12" ItemIndex="484" Probability="100" />
 		<Result ReqGuardianNum="3" ItemCat="12" ItemIndex="76" Probability="100" />
 		<Result ReqGuardianNum="4" ItemCat="12" ItemIndex="84" Probability="100" />
+		<Result ReqGuardianNum="5" ItemCat="12" ItemIndex="94" Probability="100" />
 	</UpgradeSpecial>
 </GuardianItemMix>

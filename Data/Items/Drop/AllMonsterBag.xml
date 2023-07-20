@@ -36,7 +36,6 @@
 <AllMonsterItemDrop>
   <DropItem MonsterMinLevel="102" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="31" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="4500" Name="Spirit" />
   <DropItem MonsterMinLevel="96" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="31" MinLevel="1" MaxLevel="1" Durability="0" Element="0" Duration="0" Rate="18000" Name="Spirit" />
-  <DropItem MonsterMinLevel="86" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="14" MinLevel="1" MaxLevel="1" Durability="0" Element="0" Duration="0" Rate="36000" Name="Loch's Feather" />
   <DropItem MonsterMinLevel="60" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="13" Index="145" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="4500" Name="Spirit Map Fragment" />
   <DropItem MonsterMinLevel="31" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="101" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="45000" Name="Suspicious Scrap of Paper" />
   <DropItem MonsterMinLevel="1" MonsterMaxLevel="300" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="21" MinLevel="3" MaxLevel="3" Durability="0" Element="0" Duration="0" Rate="45000" Name="Rena" />

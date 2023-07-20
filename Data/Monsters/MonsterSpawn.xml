@@ -12112,4 +12112,765 @@
 			<Spawn Index="240" Distance="0" StartX="119" StartY="110" Dir="3" /> <!-- Safety Guardian -->
 		</Spot>
 	</Map>
+	<Map Number="140" Name="Bloody Tarkan">
+		<Spot Type="0" Description="NPC/Traps">
+			<Spawn Index="925" Distance="0" StartX="45" StartY="209" Dir="3" /> <!-- Elite Zone Flag -->
+			<Spawn Index="925" Distance="0" StartX="35" StartY="42" Dir="3" /> <!-- Elite Zone Flag -->
+			<Spawn Index="925" Distance="0" StartX="232" StartY="225" Dir="9" /> <!-- Elite Zone Flag -->
+			<Spawn Index="925" Distance="0" StartX="31" StartY="218" Dir="9" /> <!-- Elite Zone Flag -->
+			<Spawn Index="925" Distance="0" StartX="223" StartY="30" Dir="9" /> <!-- Elite Zone Flag -->
+		</Spot>
+		<Spot Type="4" Description="Single Point Elemental Monsters">
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="151" StartY="7" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="157" StartY="35" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="160" StartY="27" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="158" StartY="43" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="171" StartY="61" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="179" StartY="61" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="180" StartY="29" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="196" StartY="41" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="195" StartY="49" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="209" StartY="32" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="210" StartY="49" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="203" StartY="63" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="182" StartY="53" Dir="-1" Element="5" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="110" StartY="31" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="109" StartY="22" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="113" StartY="28" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="111" StartY="39" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="113" StartY="47" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="112" StartY="67" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="108" StartY="43" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="105" StartY="34" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="99" StartY="38" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="39" StartY="24" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="23" StartY="49" Dir="-1" Element="1" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="141" StartY="56" Dir="-1" Element="3" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="134" StartY="58" Dir="-1" Element="3" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="141" StartY="61" Dir="-1" Element="3" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="138" StartY="67" Dir="-1" Element="3" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="142" StartY="84" Dir="-1" Element="3" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="155" StartY="100" Dir="-1" Element="3" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="163" StartY="111" Dir="-1" Element="3" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="134" StartY="124" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="160" StartY="140" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="160" StartY="144" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="168" StartY="153" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="160" StartY="157" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="151" StartY="164" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="143" StartY="170" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="134" StartY="169" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="128" StartY="167" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="127" StartY="180" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="115" StartY="181" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="83" StartY="188" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="112" StartY="190" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="117" StartY="197" Dir="-1" Element="4" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="174" StartY="156" Dir="-1" Element="2" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="182" StartY="154" Dir="-1" Element="2" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="188" StartY="158" Dir="-1" Element="2" />
+			<!--(926) Bloody Mutant [Lv.675]-->
+			<Spawn Index="926" Distance="2" StartX="204" StartY="159" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="209" StartY="27" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="198" StartY="31" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="221" StartY="48" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="214" StartY="49" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="202" StartY="56" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="183" StartY="57" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="181" StartY="37" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="182" StartY="21" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="164" StartY="19" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="159" StartY="14" Dir="-1" Element="5" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="69" StartY="6" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="73" StartY="9" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="89" StartY="78" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="32" StartY="23" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="30" StartY="28" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="80" StartY="42" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="86" StartY="56" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="84" StartY="60" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="84" StartY="28" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="85" StartY="38" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="95" StartY="41" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="85" StartY="45" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="95" StartY="36" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="104" StartY="42" Dir="-1" Element="1" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="143" StartY="91" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="140" StartY="87" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="145" StartY="78" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="142" StartY="70" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="111" StartY="115" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="136" StartY="130" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="179" StartY="128" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="182" StartY="125" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="205" StartY="108" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="209" StartY="111" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="193" StartY="109" Dir="-1" Element="3" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="44" StartY="183" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="58" StartY="198" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="67" StartY="194" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="63" StartY="195" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="60" StartY="211" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="56" StartY="213" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="67" StartY="214" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="73" StartY="215" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="78" StartY="210" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="90" StartY="206" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="95" StartY="192" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="100" StartY="187" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="95" StartY="174" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="90" StartY="169" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="116" StartY="185" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="121" StartY="204" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="117" StartY="207" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="117" StartY="201" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="122" StartY="179" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="138" StartY="180" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="140" StartY="174" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="123" StartY="167" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="148" StartY="167" Dir="-1" Element="4" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="155" StartY="160" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="238" StartY="123" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="229" StartY="138" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="237" StartY="109" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="226" StartY="143" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="219" StartY="156" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="222" StartY="149" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="199" StartY="145" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="195" StartY="151" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="214" StartY="191" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="206" StartY="187" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="197" StartY="182" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="207" StartY="170" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="205" StartY="163" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="189" StartY="150" Dir="-1" Element="2" />
+			<!--(927) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="927" Distance="2" StartX="195" StartY="157" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="233" StartY="56" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="230" StartY="56" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="205" StartY="69" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="205" StartY="75" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="220" StartY="26" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="219" StartY="33" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="216" StartY="27" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="206" StartY="14" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="178" StartY="12" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="147" StartY="10" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="164" StartY="63" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="164" StartY="68" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="164" StartY="25" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="175" StartY="28" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="194" StartY="33" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="204" StartY="26" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="199" StartY="52" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="219" StartY="40" Dir="-1" Element="5" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="110" StartY="17" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="104" StartY="14" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="115" StartY="66" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="114" StartY="60" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="88" StartY="71" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="85" StartY="75" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="62" StartY="68" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="47" StartY="40" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="55" StartY="44" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="58" StartY="38" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="63" StartY="50" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="69" StartY="42" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="64" StartY="42" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="79" StartY="35" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="91" StartY="44" Dir="-1" Element="1" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="118" StartY="93" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="122" StartY="98" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="110" StartY="132" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="108" StartY="138" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="134" StartY="134" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="132" StartY="117" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="131" StartY="109" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="141" StartY="99" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="133" StartY="102" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="159" StartY="102" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="171" StartY="92" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="171" StartY="86" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="176" StartY="110" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="184" StartY="107" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="156" StartY="121" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="152" StartY="107" Dir="-1" Element="3" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="26" StartY="190" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="30" StartY="183" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="26" StartY="218" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="33" StartY="215" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="59" StartY="233" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="57" StartY="231" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="67" StartY="230" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="70" StartY="225" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="98" StartY="231" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="97" StartY="219" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="95" StartY="214" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="79" StartY="207" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="57" StartY="205" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="58" StartY="183" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="52" StartY="185" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="69" StartY="185" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="76" StartY="189" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="92" StartY="186" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="85" StartY="166" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="78" StartY="166" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="95" StartY="180" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="107" StartY="186" Dir="-1" Element="4" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="241" StartY="109" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="240" StartY="113" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="233" StartY="112" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="235" StartY="131" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="207" StartY="140" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="205" StartY="136" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="211" StartY="133" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="237" StartY="179" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="236" StartY="151" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="242" StartY="183" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="227" StartY="197" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="220" StartY="205" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="218" StartY="216" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="220" StartY="222" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="201" StartY="201" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="184" StartY="208" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="180" StartY="186" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="175" StartY="188" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="173" StartY="215" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="221" StartY="168" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="218" StartY="178" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="217" StartY="185" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="211" StartY="160" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="212" StartY="169" Dir="-1" Element="2" />
+			<!--(928) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="928" Distance="2" StartX="205" StartY="132" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="231" StartY="27" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="226" StartY="28" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="235" StartY="51" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="234" StartY="58" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="229" StartY="59" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="211" StartY="14" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="211" StartY="11" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="203" StartY="10" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="208" StartY="73" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="210" StartY="78" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="204" StartY="78" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="229" StartY="52" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="182" StartY="14" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="176" StartY="15" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="168" StartY="62" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="166" StartY="70" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="153" StartY="10" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="149" StartY="13" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="157" StartY="39" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="170" StartY="27" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="165" StartY="36" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="185" StartY="32" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="180" StartY="45" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="189" StartY="52" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="198" StartY="37" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="211" StartY="29" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="208" StartY="51" Dir="-1" Element="5" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="27" StartY="22" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="27" StartY="28" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="33" StartY="25" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="59" StartY="66" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="55" StartY="70" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="60" StartY="72" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="89" StartY="73" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="85" StartY="78" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="70" StartY="12" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="66" StartY="7" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="107" StartY="12" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="104" StartY="17" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="112" StartY="62" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="111" StartY="70" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="91" StartY="37" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="87" StartY="49" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="75" StartY="39" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="61" StartY="44" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="53" StartY="38" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="39" StartY="42" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="34" StartY="46" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="44" StartY="26" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="49" StartY="29" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="71" StartY="62" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="79" StartY="62" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="81" StartY="12" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="83" StartY="20" Dir="-1" Element="1" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="86" StartY="109" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="76" StartY="104" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="96" StartY="102" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="103" StartY="107" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="91" StartY="103" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="92" StartY="109" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="96" StartY="114" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="107" StartY="113" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="108" StartY="124" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="115" StartY="134" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="114" StartY="139" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="107" StartY="142" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="114" StartY="111" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="124" StartY="109" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="122" StartY="94" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="117" StartY="96" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="138" StartY="133" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="134" StartY="137" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="210" StartY="108" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="204" StartY="111" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="182" StartY="128" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="177" StartY="123" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="173" StartY="88" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="167" StartY="87" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="170" StartY="109" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="166" StartY="103" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="149" StartY="99" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="155" StartY="113" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="159" StartY="130" Dir="-1" Element="3" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="24" StartY="183" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="22" StartY="191" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="54" StartY="232" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="56" StartY="237" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="31" StartY="188" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="77" StartY="162" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="77" StartY="169" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="73" StartY="164" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="101" StartY="226" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="104" StartY="234" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="96" StartY="234" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="38" StartY="184" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="50" StartY="181" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="53" StartY="176" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="54" StartY="193" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="44" StartY="213" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="48" StartY="211" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="53" StartY="214" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="76" StartY="197" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="71" StartY="194" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="120" StartY="208" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="121" StartY="162" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="125" StartY="163" Dir="-1" Element="4" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="241" StartY="186" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="241" StartY="177" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="237" StartY="184" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="173" StartY="211" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="168" StartY="211" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="170" StartY="217" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="175" StartY="192" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="170" StartY="188" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="174" StartY="185" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="241" StartY="147" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="239" StartY="153" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="237" StartY="148" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="235" StartY="160" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="227" StartY="168" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="215" StartY="171" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="215" StartY="161" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="233" StartY="191" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="223" StartY="199" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="218" StartY="195" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="231" StartY="222" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="222" StartY="223" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="212" StartY="210" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="206" StartY="202" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="189" StartY="204" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="193" StartY="184" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="202" StartY="184" Dir="-1" Element="2" />
+			<!--(929) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="929" Distance="2" StartX="207" StartY="192" Dir="-1" Element="2" />
+			<!--(930) (Elite) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="930" Distance="2" StartX="236" StartY="28" Dir="-1" Element="5" />
+			<!--(930) (Elite) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="930" Distance="2" StartX="21" StartY="56" Dir="-1" Element="1" />
+			<!--(930) (Elite) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="930" Distance="2" StartX="76" StartY="109" Dir="-1" Element="3" />
+			<!--(930) (Elite) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="930" Distance="2" StartX="19" StartY="222" Dir="-1" Element="4" />
+			<!--(930) (Elite) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="930" Distance="2" StartX="25" StartY="222" Dir="-1" Element="4" />
+			<!--(930) (Elite) Bloody Wolf of Fresh Blood [Lv.678]-->
+			<Spawn Index="930" Distance="2" StartX="237" StartY="214" Dir="-1" Element="2" />
+			<!--(931) (Elite) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="931" Distance="2" StartX="240" StartY="26" Dir="-1" Element="5" />
+			<!--(931) (Elite) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="931" Distance="2" StartX="18" StartY="52" Dir="-1" Element="1" />
+			<!--(931) (Elite) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="931" Distance="2" StartX="77" StartY="116" Dir="-1" Element="3" />
+			<!--(931) (Elite) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="931" Distance="2" StartX="79" StartY="109" Dir="-1" Element="3" />
+			<!--(931) (Elite) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="931" Distance="2" StartX="21" StartY="218" Dir="-1" Element="4" />
+			<!--(931) (Elite) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="931" Distance="2" StartX="21" StartY="224" Dir="-1" Element="4" />
+			<!--(931) (Elite) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="931" Distance="2" StartX="238" StartY="210" Dir="-1" Element="2" />
+			<!--(931) (Elite) Bloody Beam Knight [Lv.680]-->
+			<Spawn Index="931" Distance="2" StartX="238" StartY="216" Dir="-1" Element="2" />
+			<!--(932) (Elite) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="932" Distance="2" StartX="236" StartY="24" Dir="-1" Element="5" />
+			<!--(932) (Elite) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="932" Distance="2" StartX="15" StartY="53" Dir="-1" Element="1" />
+			<!--(932) (Elite) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="932" Distance="2" StartX="18" StartY="58" Dir="-1" Element="1" />
+			<!--(932) (Elite) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="932" Distance="2" StartX="73" StartY="104" Dir="-1" Element="3" />
+			<!--(932) (Elite) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="932" Distance="2" StartX="71" StartY="108" Dir="-1" Element="3" />
+			<!--(932) (Elite) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="932" Distance="2" StartX="17" StartY="218" Dir="-1" Element="4" />
+			<!--(932) (Elite) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="932" Distance="2" StartX="16" StartY="223" Dir="-1" Element="4" />
+			<!--(932) (Elite) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="932" Distance="2" StartX="241" StartY="211" Dir="-1" Element="2" />
+			<!--(932) (Elite) Bloody Tantalus [Lv.680]-->
+			<Spawn Index="932" Distance="2" StartX="241" StartY="216" Dir="-1" Element="2" />
+		</Spot>
+	</Map>
 </MonsterSpawn>

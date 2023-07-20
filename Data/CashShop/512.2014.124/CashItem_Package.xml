@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -17,6 +17,7 @@
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
+
 <CashItemPackage>
 	<Package GUID="0" ID="8" ItemSequence="0" UniqueID1="229" UniqueID2="289" Description="" />
 	<Package GUID="1" ID="8" ItemSequence="1" UniqueID1="239" UniqueID2="299" Description="" />

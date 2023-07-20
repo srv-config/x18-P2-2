@@ -33,7 +33,7 @@
 <ItemOptionManager>
 <!-- Halloween Event options
 // 0: No Option 
-// 1: Increases Attack Speed ​​+%d
+// 1: Increases Attack Speed +%d
 // 2: Increase Damage and Wizard Damage +%d
 // 3: Increases Defense +%d
 // 4: Increases Maximum HP +%d
@@ -68,15 +68,15 @@
 // 22: Magic Defense Increase +%d
 // 24: Damage Reflect Increase +%d
 // 26: Attack Rate Decrease +%d
-// 33: Min Wizardy Power Increase +%d
-// 34: Max Wizardy Power Increase +%d
+// 33: Min Wizardry Power Increase +%d
+// 34: Max Wizardry Power Increase +%d
 // 51: Increase Damage and Wizard Damage +%d% (Melee/Magic/Curse)
 // 52: Damage absorption %d%
 // 53: Automatic HP Recovery +%d%
 // 54: Automatic Mana Recovery +%d%
 // 55: Critical Damage +%d%
 // 56: Excellent Damage +%d%
-// 57: Melee/Wizardy/Curse Damage Increase +%d
+// 57: Melee/Wizardry/Curse Damage Increase +%d
 // 58: Defense Increase +%d
 // 60: Exp increase by %d% (regular only)
 // 61: Possibility to obtain obtain rare items from monsters in Vulcanus
@@ -94,7 +94,7 @@
 // 87: Exp gain increase +%d% (Ascension Items, Normal/Master level usable)
 // 88: Exp gain increase +%d% (Bless of Light, Normal/Master level usable)
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// If OptionX value is set to 0 for items 14,97-98 and 14,231-232 then Critical/Excellent damage increase ffect is used at specified value
+// If OptionX value is set to 0 for items 14,97-98 and 14,231-232 then Critical/Excellent damage increase effect is used at specified value
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 	<Section ID="2">
@@ -374,6 +374,10 @@
 		<Item Cat="14" Index="264" Option1="88" Value1="100" Option2="0" Value2="0"	Time="1800" /> <!-- Bless of Light (Middle Grade) -->
 	</Section>
 	
+	<Section ID="87">
+		<Item Cat="14" Index="366" Option1="88" Value1="50" Option2="1" Value2="10" Time="1800" /> <!-- Piece of Pizza -->
+	</Section>
+	
 	<Section ID="79">
 		<Item Cat="14" Index="371" Option1="88" Value1="200" Option2="0" Value2="0" Time="1800" /> <!-- [Bound] Bless of Light (Higher) -->
 	</Section>
@@ -398,7 +402,7 @@
 	</Section>
 
 	<Section ID="85">
-		<Item Cat="14" Index="453" Option1="0" Value1="0" Option2="0" Value2="0" Time="1800" /> <!-- Switch Scroll -->
+		<Item Cat="14" Index="453" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Switch Scroll -->
 	</Section>
 	
 	<Section ID="86">
@@ -406,6 +410,8 @@
 		<Item Cat="12" Index="76" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Pierce Lion (Rare) -->
 		<Item Cat="12" Index="83" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Shining Tail -->
 		<Item Cat="12" Index="84" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Shining Tail (Rare) -->
+		<Item Cat="12" Index="93" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Ur -->
+		<Item Cat="12" Index="94" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Ur (Rare) -->
 		<Item Cat="12" Index="473" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Ghost Horse -->
 		<Item Cat="12" Index="483" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Ice Dragon -->
 		<Item Cat="12" Index="484" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Ice Dragon (Rare) -->

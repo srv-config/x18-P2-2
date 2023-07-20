@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2022 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -82,7 +82,7 @@
 //~~ If SetItem is 1 then the item must be predefined as Ancient in ItemSetType.xml and related Game Client files, otherwise option is ignored
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
-//	SocketCount: Count os Sockets for Socket Item - Item Must be configured as socket, refer to ItemList.xml - Type attribute
+//	SocketCount: Count of Sockets for Socket Item - Item Must be configured as socket, refer to ItemList.xml - Type attribute
 //	Element: Defines Element type for an item
 //		0: no elemental attribute
 //		1: Fire
@@ -91,7 +91,7 @@
 //		4: Wind
 //		5: Darkness
 //	Duration: Duration of item to purchase, minutes
-//	Price: Price of the item expressend in Ruuds
+//	Price: Price of the item expressed in Ruud
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
@@ -133,6 +133,8 @@
 		<Item Cat="20" Index="84" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Shining Tail's Seal -->
 		<Item Cat="12" Index="85" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Soul of Apocalypse -->
 		<Item Cat="12" Index="86" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Brilliant Anvil -->
+		<Item Cat="20" Index="112" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="25000" /> <!-- Binding Frame -->
+		<Item Cat="20" Index="119" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Seal of Ur -->
 	</Character>
 	<Character Class="0" Name="Dark Wizard">
 		<Item Cat="13" Index="359" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Armor of Sealed Transcendence -->

@@ -149,4 +149,5 @@
 	<Map Number="137" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /><!-- Kanturu Undergrounds -->
 	<Map Number="138" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /><!-- Volcano Ignis -->
 	<Map Number="139" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /><!-- Boss Zone (entrance) -->
+	<Map Number="140" MinMoneyCount="100" MaxMoneyCount="100" Disable="0" /><!-- Bloody Tarkan -->
 </ZenDropSystem>

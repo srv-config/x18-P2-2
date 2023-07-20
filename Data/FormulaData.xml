@@ -101,6 +101,23 @@
 //		40: Dex Booster Attack Speed Increase
 //		42: Illusion Blade Attack Damage
 //
+// ### FormulaData::CombatPower::Formula ###
+//	ID: Next unique ID of formula, starts from 0
+//	Data: The formula data, no spaces
+//		0: Combat Power base calculation for item of level lower than 11 (outputs CombatPowerResult)
+//		1: Combat Power base calculation for item of level greater or equal than 11 (outputs CombatPowerResult)
+//		2: Combat Power adjustment formula for normal item of level lower than 11
+//		3: Combat Power adjustment formula for normal item of level greater or equal than 11
+//		4: Combat Power adjustment formula for excellent item of level lower than 11
+//		5: Combat Power adjustment formula for excellent item of level greater or equal than 11
+//		6: Combat Power adjustment formula for ancient item
+//		7: Two weapons Combat Power adjustment formula: CombatPowerAttackDamage = TwoWeaponCombatPower * Constant / 100
+//		8: One weapon Combat Power adjustment formula: CombatPowerAttackDamage = OneWeaponCombatPower * Constant / 100
+//		9: Base Combat Power formula for Knight class
+//		10: Base Combat Power formula for Magic Gladiator class
+//		11: Base Combat Power formula for Rage Fighter class
+//		12: Base Combat Power formula for Slayer class
+//
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
@@ -457,6 +474,7 @@
 		<Formula ID="308" Data="((((((5+%d)^1.6)/4)*4)/5)*4.5)" /> <!-- SkillPoint -->
 		<Formula ID="309" Data="((((((5+%d)^1.6)/4)*4)/5)*5)" /> <!-- SkillPoint -->
 		<Formula ID="310" Data="((((((5+%d)^1.6)/5)*4)/5)*3.5)" /> <!-- SkillPoint -->
+		<Formula ID="311" Data="((1+(((((((%d-30)^3)+25000)/499)/50)*100)/12))*85*2)*2" />
 	</SkillTree>
 	<SetOption>
 		<Formula ID="0" Data="((((%d*1.25)^1.48)+5)/1.1)" /> <!-- ItemLevel -->
@@ -667,6 +685,16 @@
 		<Formula ID="38" Data="((5+(%d/10))^4.2)" /> <!-- ItemLevel -->
 		<Formula ID="39" Data="((3.5+(0.5*%d))^1.72)" /> <!-- ItemLevel -->
 		<Formula ID="40" Data="((5.6+(%d/10))^4)" /> <!-- ItemLevel -->
+		<Formula ID="41" Data="(185+((15+%d)/2)^2)" /> <!-- ItemLevel -->
+		<Formula ID="42" Data="(185+((15+%d)/2)^2)" /> <!-- ItemLevel -->
+		<Formula ID="43" Data="(5+((%d/10)*1.9)^1.5)" /> <!-- ItemLevel -->
+		<Formula ID="44" Data="(5+((%d/10)*1.6)^1.49)" /> <!-- ItemLevel -->
+		<Formula ID="45" Data="(2+((3.9+%d)/2)^1.5)" /> <!-- ItemLevel -->
+		<Formula ID="46" Data="((6.5+(%d/10))^3.9)" /> <!-- ItemLevel -->
+		<Formula ID="47" Data="((6.2+(%d/10))^4.2)" /> <!-- ItemLevel -->
+		<Formula ID="48" Data="((5.4+(%d/10))^4.2)" /> <!-- ItemLevel -->
+		<Formula ID="49" Data="((4.2+(0.5*%d))^1.72)" /> <!-- ItemLevel -->
+		<Formula ID="50" Data="((6+(%d/10))^4)" /> <!-- ItemLevel -->
 	</GuardianItem>
 	<Earrings>
 		<Formula ID="0" Data="(((%d*5)+70)/1.8)" /> <!-- ItemLevel -->
@@ -679,6 +707,9 @@
 		<Formula ID="7" Data="(((%d*5)+166)/1.8)" /> <!-- ItemLevel -->
 		<Formula ID="8" Data="(((%d*5)+155)/1)" /> <!-- ItemLevel -->
 		<Formula ID="9" Data="(((%d*6)+70)/1)" /> <!-- ItemLevel -->
+		<Formula ID="10" Data="(((%d*5)+198)/1.8)" /> <!-- ItemLevel -->
+		<Formula ID="11" Data="(((%d*5)+185)/1)" /> <!-- ItemLevel -->
+		<Formula ID="12" Data="(((%d*6)+80)/1)" /> <!-- ItemLevel -->
 	</Earrings>
 	<Group11>
 		<Formula ID="0" Data="0" /> <!-- empty -->
@@ -695,4 +726,19 @@
 		<Formula ID="4" Data="(%d+%d)+((%d*0)+(%d*0))" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
 		<Formula ID="5" Data="(%d^1.05+(%d*((%d/7)^2.5))+%d)" /> <!-- OptionValue, ArtifactLevel, OptionValue, ArtifactLevel -->
 	</ArtifactOption>
+	<CombatPower>
+		<Formula ID="0" Data="%d+(%d*0.5)+(%d*0.5)" /> <!-- CombatPower, ItemLevel, ItemLevel -->
+		<Formula ID="1" Data="(%d+(%d*1.5)+(%d*1.5))+((%d-9)*(%d-8)/2)" /> <!-- CombatPower, ItemLevel, ItemLevel, ItemLevel -->
+		<Formula ID="2" Data="((((%d/%d+5)+%d)/2)+(%d*2))+12.5" /> <!-- CombatPowerResult, ItemDropLevel, CombatPowerResult, ItemLevel -->
+		<Formula ID="3" Data="(((%d/%d+5)+%d)/2)+(%d*2)" /> <!-- CombatPowerResult, ItemDropLevel, CombatPowerResult, ItemLevel -->
+		<Formula ID="4" Data="((((%d*25/%d+5)+%d)/2)+(%d*2))+14.5" /> <!-- CombatPowerResult, ItemDropLevel, CombatPowerResult, ItemLevel -->
+		<Formula ID="5" Data="(((%d*25/%d+5)+%d)/2)+(%d*2)" /> <!-- CombatPowerResult, ItemDropLevel, CombatPowerResult, ItemLevel -->
+		<Formula ID="6" Data="((((%d*25/%d+5)+%d)+2+((%d+30)/60))/2)+(%d*2)" /> <!-- CombatPowerResult, ItemDropLevel, CombatPowerResult, ItemLevel -->
+		<Formula ID="7" Data="60" /> <!-- Constant -->
+		<Formula ID="8" Data="40" /> <!-- Constant -->
+		<Formula ID="9" Data="10+(%d/80)" /> <!-- Strength -->
+		<Formula ID="10" Data="15+(%d/110)+(%d/80)" /> <!-- Strength, Agility -->
+		<Formula ID="11" Data="12+(%d/100)+(%d/100)" /> <!-- Agility, Vitality -->
+		<Formula ID="12" Data="10+(%d/100)" /> <!-- Agility -->
+	</CombatPower>
 </FormulaData>

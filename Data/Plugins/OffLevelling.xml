@@ -196,5 +196,6 @@
 		<Map Number="137" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Kanturu Undergrounds -->
 		<Map Number="138" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Volcano Ignis -->
 		<Map Number="139" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Boss Zone (entrance) -->
+		<Map Number="140" Disable="0" CoinType="-1" CoinValue="100" /> <!-- Bloody Tarkan -->
 	</PerMapAdjustments>
 </OffLevellingSystem>
