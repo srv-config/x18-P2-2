@@ -858,6 +858,10 @@
 		<Msg ID="832" Text="[System] The server is running on vulnerable version, update as quick as possible." /> <!-- Thrown to Admin/GM if server is running on version that has been identified as vulnerable -->
 		<Msg ID="833" Text="Voucher Exchange is not available at present." />
 		<Msg ID="834" Text="You need a 4x4 space in your inventory." />
+		<Msg ID="835" Text="Guild leaving penalty." />
+		<Msg ID="836" Text="Required VIP level to use helper Plus is: %s" />
+		<Msg ID="837" Text="The item used does not support harmony options." />
+		<Msg ID="838" Text="You are lack of Zen to continue using Helper Plus, %d is required." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />

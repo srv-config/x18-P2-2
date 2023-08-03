@@ -776,6 +776,8 @@ function IllusionKnightBladeStorm_4thEnchant_Calc(InDamage, Strength, Dexterity,
 		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
 	elseif (BarrageCount == 4) then
 		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 5) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
 	end
 
 	return OutDamage
