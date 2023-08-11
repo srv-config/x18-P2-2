@@ -862,6 +862,11 @@
 		<Msg ID="836" Text="Required VIP level to use helper Plus is: %s" />
 		<Msg ID="837" Text="The item used does not support harmony options." />
 		<Msg ID="838" Text="You are lack of Zen to continue using Helper Plus, %d is required." />
+		<Msg ID="839" Text="Illusion Avatar skill cannot be used with Offline Levelling." />
+		<Msg ID="840" Text="Add at least one offer to the store before entering off-trading." />
+		<Msg ID="841" Text="You can mix up to 25 jewels at a time." />
+		<Msg ID="842" Text="You reached maximum resets of %d you could achaive a day." />
+		<Msg ID="843" Text="Close Personal Store before entering Offline Levelling." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
