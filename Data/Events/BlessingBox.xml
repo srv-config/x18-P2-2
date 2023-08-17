@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2022 IGC-Network (R)
+// == (C) 2010-2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -206,6 +206,7 @@
 		<Map Number="137" Enable="1" />
 		<Map Number="138" Enable="1" />
 		<Map Number="139" Enable="1" />
+		<Map Number="140" Enable="1" />
 	</Buff>
 	
 	<Monster Type="889" ResetRegen="1" ItemBagID="900">

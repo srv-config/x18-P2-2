@@ -85,8 +85,8 @@
 //		4: Darkness skill conversion
 //		5: Darkness Defense addition
 //		6: Darkness HP decrease
-//		7: Weakness Min Magic Damage Increase
-//		8: Innovation Min Magic Damage Increase
+//		7: Weakness Attack Decrease
+//		8: Innovation Defense Decrease
 //		17: Mastery Shield Damage Reduction Taken Instead
 //		30: Spiral Charge Attack Damage Increase
 //		31: Spiral Charge Defense Increase
