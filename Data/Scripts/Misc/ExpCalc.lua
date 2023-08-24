@@ -1,7 +1,7 @@
 -- // ============================================================
 -- // == INTERNATIONAL GAMING CENTER NETWORK
 -- // == www.igcn.mu
--- // == (C) 2019 IGC-Network (R)
+-- // == (C) 2020-2023 IGC-Network (R)
 -- // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- // == File is a part of IGCN Group MuOnline Server files.
 -- // ============================================================
@@ -47,7 +47,7 @@ function SetExpTable_Master(MasterLevel, MaxNormalLevel)
 	return Exp
 end
 
-function ExpSystemCalc(FormulaID, StaticExp, DynamicExp, EventExp, VipExp, BonusEvent, MapBonusExp, MiscExp)
+function ExpSystemCalc(FormulaID, PlayerVipType, StaticExp, DynamicExp, EventExp, VipExp, BonusEvent, MapBonusExp, MiscExp)
 	local Exp = 0
 
 -- The OffLevelExp is 1.0 when not having plugin purchased
@@ -63,6 +63,14 @@ function ExpSystemCalc(FormulaID, StaticExp, DynamicExp, EventExp, VipExp, Bonus
 	elseif (FormulaID == 4) then
 		Exp = (StaticExp+EventExp+VipExp+BonusEvent+MapBonusExp)*DynamicExp;
 	elseif (FormulaID == 5) then
+		if (VipExp <= 0) then -- default is 0, set to 1 (no change) as it is used as multiplier
+			VipExp = 1.0
+		end
+		
+		if (PlayerVipType >= 0) then
+			VipExp = 1.0 + VipExp; -- set actual VIP increase
+		end
+		
 		Exp = (StaticExp+DynamicExp+EventExp+BonusEvent+MapBonusExp)*VipExp;
 	end
 
