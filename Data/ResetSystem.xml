@@ -15,6 +15,8 @@
 //~~ To allow smooth switch to new system we will keep old reset system for next few updates
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
+//	MaxDailyResets: maximum number of resets player may achieve daily, 0 for no limit
+//
 // ### ResetSystem::Requirements ###
 //	MinLevelMode: Minimum level check mode:
 //		~ 0: Regular level only
@@ -23,7 +25,6 @@
 //
 //	MinLevel: Minimum level to perform reset
 //	MinVipType: Minimum VIP Level to use Resets System
-//	MaxDailyResets: maximum number of resets player may achaive daily, 0 for no limit
 //	MaxInGameResets: Maximum number of resets that can be achieved by using in-game /reset command
 //	MaxWebResets: Maximum number of resets that can be achieved by character, not necessarily in-game but web module, must be equal or larger than MaxInGameResets
 //
@@ -109,8 +110,8 @@
 //
 -->
 
-<ResetSystem Enable="0">
-<Requirements MinLevelMode="0" MinLevel="400" MaxInGameResets="100" MaxWebResets="100" MaxDailyResets="10" MinVipType="-1" />
+<ResetSystem Enable="0" MaxDailyResets="10">
+<Requirements MinLevelMode="0" MinLevel="400" MaxInGameResets="100" MaxWebResets="100" MinVipType="-1" />
 <Settings RemoveEquipment="1" RemoveFromParty="1" EnableMuHelper="0" ClearBuffs="1" ResetStats="0" SaveOldStatPoint="0" ResetMasterLevel="0" MoveToCharSelectWindow="0" StayOnPosition="0" MaxResetPoints="0" LevelAfterReset="1" MasterLevelAfterReset="0" />
 
 	<DynamicResetRangeList> <!-- First rule that matches player requirements will be applied, therefore order of entries matters -->
