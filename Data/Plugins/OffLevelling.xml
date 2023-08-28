@@ -12,32 +12,33 @@
 //	Enable: Disables or Enables entire system, 0/1
 //
 // ### OffLevellingSystem::General ###
-//	VipType: Type of VIP Off-Levelling is available to, higher type allows lower types automatically
+//	VipType: Type of VIP Off-Leveling is available to, higher type allows lower types automatically
 //	CoinType: Coin Type to charge on Interval, Coin types:
 //		0 - Zen
 //		1 - WCoin
 //		2 - Goblin Point
 //	CoinValue: Amount of coins to charge with
 //	HitInterval: Interval of doing attack, milliseconds
-//	ChargeInterval: Interval to charge for Off-Levelling, seconds
-//	ImmortalToPlayers: Making character immoral to players during Off-Levelling, 0/1
-//	ImmortalToMonsters: Making Character immoral to monsters during Off-Levelling, 0/1
-//	MaxDuration: Maximum amount of time the Offline Levelling will be active after activation (regular players), hours, 0 for no limit
-//	MaxVipDuration: Maximum amount of time the Offline Levelling will be active after activation (VIP Players), hours, 0 for no limit
+//	ChargeInterval: Interval to charge for Off-Leveling, seconds
+//	ImmortalToPlayers: Making character immoral to players during Off-Leveling, 0/1
+//	ImmortalToMonsters: Making Character immoral to monsters during Off-Leveling, 0/1
+//	MaxDuration: Maximum amount of time the Offline Leveling will be active after activation (regular players), hours, 0 for no limit
+//	MaxVipDuration: Maximum amount of time the Offline Leveling will be active after activation (VIP Players), hours, 0 for no limit
 //	AutoRepairItems: Allows to activate automated repair of equipment (repair will consume Zen as for regular repair), 0/1
-//	DisconnectAfterDeath: Disconnects character after death in Offline Levelling mode, 0/1
+//	DisconnectAfterDeath: Disconnects character after death in Offline Leveling mode, 0/1
+//	StayInSafeZoneAfterDeath: Moves to safe zone after death, only if DisconnectAfterDeath is set to 0, 0/1
 //	ReBuffInterval: Interval of using buff, seconds
 //	HealInterval: Interval to use heal buff, seconds
 //	HealHPBelow: Percentage value of HP to use heal buff, 0.1 to 1.0, where 1.0 represents 100%
 //	DisableMovement: Allows to disable automated character movement, 0/1
-//	DisableInfoAbovePlayer: Allows to disable information cloud above player in offline levelling mode, 0/1
+//	DisableInfoAbovePlayer: Allows to disable information cloud above player in offline leveling mode, 0/1
 //	AllowPersonalStore: Allows to run off-level with opened personal store, 0/1
 //
 // ### OffLevellingSystem::Timing ###
-//	StartHour: Start hour of time range the Offline Levelling is available at, 0-23
-//	StartMinute: Start minute of time range the Offline Levelling is available at, 0-60
-//	EndHour: End hour of time range the Offline Levelling is available at, 0-23
-//	EndMinute: End minute of time range the Offline Levelling is available at, 0-60
+//	StartHour: Start hour of time range the Offline Leveling is available at, 0-23
+//	StartMinute: Start minute of time range the Offline Leveling is available at, 0-60
+//	EndHour: End hour of time range the Offline Leveling is available at, 0-23
+//	EndMinute: End minute of time range the Offline Leveling is available at, 0-60
 //	
 // ### OffLevellingSystem::PickItems ###
 //	Enable: Allows to activate automated pick up of items, if this is disabled any further options of the section are not active, 0/1
@@ -52,7 +53,7 @@
 //
 // ### OffLevellingSystem::PerMapAdjustments::Map ###
 //	Number: Number of a Map
-//	Disable: Disables Off Levelling on specified map, 0/1
+//	Disable: Disables Off Leveling on specified map, 0/1
 //	CoinType: Replaces general value of CoinType for specified map, -1 to use General section setting of type and value
 //		0 - Zen
 //		1 - WCoin
@@ -64,7 +65,7 @@
 -->	
 
 <OffLevellingSystem Enable="0">
-	<General VipType="-1" CoinType="0" CoinValue="100" HitInterval="1000" ChargeInterval="3600" ImmortalToPlayers="1" ImmortalToMonsters="1" MaxDuration="24" MaxVipDuration="48" AutoRepairItems="1" DisconnectAfterDeath="1" ReBuffInterval="10" HealInterval="2" HealHPBelow="0.99" DisableMovement="0" DisableInfoAbovePlayer="1" AllowPersonalStore="0"/>
+	<General VipType="-1" CoinType="0" CoinValue="100" HitInterval="1000" ChargeInterval="3600" ImmortalToPlayers="1" ImmortalToMonsters="1" MaxDuration="24" MaxVipDuration="48" AutoRepairItems="1" DisconnectAfterDeath="1" StayInSafeZoneAfterDeath="0" ReBuffInterval="10" HealInterval="2" HealHPBelow="0.99" DisableMovement="0" DisableInfoAbovePlayer="1" AllowPersonalStore="0"/>
 	<Timing StartHour="0" StartMinute="0" EndHour="23" EndMinute="59" />
 		
 	<PickItems Enable="1" PickUpZen="1" PickUpAllExc="1" PickUpAllSocket="1" PickUpAllAncient="1">
