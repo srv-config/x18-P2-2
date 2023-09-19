@@ -12,8 +12,14 @@
 //
 // ### CustomRanks ###
 //	Enabled: Deactivates or activates the system, 0/1
+//	Password: A password used by ToolKit ServerInfo (XML) editor to encode the file, max 8 characters
+//
+// ### CustomRanks::Rank ###
 //	VipConditonMandatory: If rank has defined a VIP requirement condition then no other conditions will be checked unless VIP condition is met 
 //	MeetAllConditions: If set to 1 then all conditions must be met before VIP will be displayed
+//	Password: A password used by ToolKit ServerInfo (XML) editor to encode the file, max 8 characters
+//
+// ### CustomRanks::Rank ###
 //	MinLevel: Minimum level required for the rank
 //	MaxLevel: Maximum level for the rank
 //	MinReset: Minimum reset required for the rank
