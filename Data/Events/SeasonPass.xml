@@ -20,6 +20,16 @@
 //~~ WARNING: The currently used daily limit is not stored in database and will reset upon game server restart
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
+//	FreeUserSeasonPass: Season Pass type non-vip player starts with
+//		~ 0: Free Pass
+//		~ 1: Gold Pass
+//		~ 2: Premium Pass
+//
+//	VipUserSeasonPass: Season Pass type non-vip player starts with
+//		~ 0: Free Pass
+//		~ 1: Gold Pass
+//		~ 2: Premium Pass
+//
 // ### SeasonPass::PassInfo::Pass ###
 //	ID: Unique ID of each pass cycle, starting from 1
 //	StartDate: Start date and time of the pass, format: yyyy-MM-dd HH:mm
@@ -83,7 +93,7 @@
 //
 // STRICTLY NO COMMENTS INSIDE TAGS 
 -->
-<SeasonPass Enable="1" MasteryHornMaxDropPerDay="100">
+<SeasonPass Enable="1" MasteryHornMaxDropPerDay="100" FreeUserSeasonPass="0" VipUserSeasonPass="1">
 	<PassInfo>
 		<Pass ID="1" StartDate="2023-04-25 08:30" EndDate="2023-06-01 08:30" />
 		<Pass ID="2" StartDate="2023-06-01 08:30" EndDate="2023-06-29 08:30" />

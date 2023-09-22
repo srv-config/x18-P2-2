@@ -12,6 +12,7 @@
 //	Enable: Deactivates or activates the event, 0/1
 //	LootTime: Maximum time to pick up item from ground after it dropped, seconds
 //	CompleteSecromiconMixReqMoney: Amount of money (Zen) required for mix of Complete Secromicon (14,109)
+//	AdditionalReward: If enabled, issues additional reward from Event_ImperialGuardian_Additional_Reward.xml, 0/1
 //
 // ### ImperialGuardian::Time ###
 //	StandBy: waiting time before next rounds, seconds
@@ -37,7 +38,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<ImperialGuardian Enable="1" LootTime="60" CompleteSecromiconMixReqMoney="1000000">
+<ImperialGuardian Enable="1" LootTime="60" CompleteSecromiconMixReqMoney="1000000" AdditionalReward="0">
 	<Time StandBy="10" RoundDuration="600" />
 
 	<EventEntry>

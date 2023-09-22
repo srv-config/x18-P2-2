@@ -48,7 +48,8 @@
 	EVENTBAG_LORDMIX = 25
 	EVENTBAG_KUNDUN = 26
 	EVENTBAG_ACHERONGUARDIAN = 27
--- 28 - 30
+	EVENTBAG_EVENTBAG_IMPERIALGUARDIAN = 28
+-- 29 - 30
 	EVENTBAG_MAPLELEAF = 31
 -- 32 - 33
 	EVENTBAG_ITR_1 = 34 -- Illusion Temple Renewal 1
@@ -137,9 +138,6 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_DROP, MakeItemID(14,11), 10,'Item_(14,11,10)_Kundun_Box+3') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,11), 11,'Item_(14,11,11)_Kundun_Box+4') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,11), 12,'Item_(14,11,12)_Kundun_Box+5') -- DropFunction /1/
-	AddItemBag(BAG_DROP, MakeItemID(14,32), 1, 'Item_(14,32,1)_Light_Purple_Candy_Box') -- DropFunction /1/
-	AddItemBag(BAG_DROP, MakeItemID(14,33), 1, 'Item_(14,33,1)_Orange_Candy_Box') -- DropFunction /1/
-	AddItemBag(BAG_DROP, MakeItemID(14,34), 1, 'Item_(14,34,1)_Dark_Blue_Candy_Box') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,45), 0, 'Item_(14,45,0)_Pumpkin_of_Luck') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,52), 0, 'Item_(14,52,0)_GM_Gift_Box') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,55), 0, 'Item_(14,55,0)_Green_Chaos_Box') -- DropFunction /1/
@@ -195,6 +193,9 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_INVENTORY, MakeItemID(12,32), 0, 'Item_(12,32,0)_Red_Ribbon_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(12,33), 0, 'Item_(12,33,0)_Green_Ribbon_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(12,34), 0, 'Item_(12,34,0)_Blue_Ribbon_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(14,32), 1, 'Item_(14,32,1)_Light_Purple_Candy_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(14,33), 1, 'Item_(14,33,1)_Orange_Candy_Box') -- DropFunction /4/
+	AddItemBag(BAG_INVENTORY, MakeItemID(14,34), 1, 'Item_(14,34,1)_Dark_Blue_Candy_Box') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(13,210),0, 'Item_(13,210,0)_WereRabbit_Egg') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(13,220),0, 'Item_(13,220,0)_Lucky_Bag_Egg') -- DropFunction /4/
 	AddItemBag(BAG_INVENTORY, MakeItemID(13,221),0, 'Item_(13,221,0)_Fire_Flame_Ghost_Egg') -- DropFunction /4/
@@ -401,7 +402,8 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 25,0, 'Mix_Senior_Reward') -- DropFunction /4/
 	AddItemBag(BAG_EVENT, 26,0, 'Monster_(275)_Kundun') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 27,0, 'Event_AcheronGuardian_Reward') -- DropFunction /3/
--- 28 - 30
+	AddItemBag(BAG_EVENT, 28,0, 'Event_ImperialGuardian_Additional_Reward') -- DropFunction /3/
+-- 29 - 30
 	AddItemBag(BAG_EVENT, 31,0, 'Mix_Maple_Leaf_Reward') -- DropFunction /4/
 -- 32 - 33
 	AddItemBag(BAG_EVENT, 34,0, 'Event_IllusionTemple_Renewal_1') -- DropFunction /3/
