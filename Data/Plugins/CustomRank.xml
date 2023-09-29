@@ -17,6 +17,9 @@
 // ### CustomRanks::Rank ###
 //	VipConditonMandatory: If rank has defined a VIP requirement condition then no other conditions will be checked unless VIP condition is met 
 //	MeetAllConditions: If set to 1 then all conditions must be met before VIP will be displayed
+//	DBRankPriority: If enabled, the priority will take private rank set via "PCR" column in [dbo].[Character] table, 0/1
+//	The column takes value of rank index where rank index is counted from up to down, as the ranks are defined in file, starting from 0.
+// 
 //	Password: A password used by ToolKit ServerInfo (XML) editor to encode the file, max 8 characters
 //
 // ### CustomRanks::Rank ###
@@ -40,7 +43,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<CustomRanks Enabled="1" VipConditonMandatory="1" MeetAllConditions="0" Password="WErt$4t3">
+<CustomRanks Enabled="1" VipConditonMandatory="1" MeetAllConditions="0" DBRankPriority="0" Password="WErt$4t3">
 	<Rank MinLevel="0" MaxLevel="0" MinReset="0" MaxReset="0" VipType="1"  IWCLord="0" ImageName="Rank1.tga" />
 	<Rank MinLevel="0" MaxLevel="0" MinReset="0" MaxReset="0" VipType="2"  IWCLord="0" ImageName="Rank2.tga" />
 	<Rank MinLevel="0" MaxLevel="0" MinReset="0" MaxReset="0" VipType="3"  IWCLord="0" ImageName="Rank3.tga" />

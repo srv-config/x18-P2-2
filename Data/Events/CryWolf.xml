@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -81,8 +81,8 @@
 //
 // ### CryWolf::Penalties ###
 //	Enable: Enables penalties system for loosing the event, 0/1
-//	GemDropPenaltyRate: Decreases Jewels drop rate by configured value, percentage ~ 1-100
-//	GettingExpPenaltyRate: Decreases Exp by configured value, percentage ~ 1-100
+//	GemDropPenaltyRate: Chance rate drop of jewel will be discarded, percentage, 1-100
+//	GettingExpPenaltyRate: Decreases final experience by configured value, percentage, 1-100
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->

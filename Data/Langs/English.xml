@@ -868,6 +868,8 @@
 		<Msg ID="842" Text="You reached maximum resets of %d you could achieve a day." />
 		<Msg ID="843" Text="Close Personal Store before entering Offline Leveling." />
 		<Msg ID="844" Text="The quest or chapter cannot be given up." />
+		<Msg ID="845" Text="The item does not meet any criteria for being upgraded." />
+		<Msg ID="846" Text="This item is restricted from use." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
