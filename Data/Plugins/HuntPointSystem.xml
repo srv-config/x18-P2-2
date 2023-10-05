@@ -105,6 +105,7 @@
 	WeekTransformPercent="5"
 	HuntPointMaps="33,10,38,7,8,37,57,80"
 	AttMapTime="12"
+	ResetWeekly="1"
 	/>
 	
 	<BuffSettings>
@@ -383,5 +384,8 @@
 		<Text Id="40" Text=" [Battle]: Go!" />
 		<Text Id="41" Text=" [Battle]: %d" />
 		<Text Id="42" Text=" You can now leave the event!" />
+		<Text Id="43" Text=" Hunt Point Bonus" />
+		<Text Id="44" Text=" Inactive Points" />
+		<Text Id="45" Text=" Hunt Points" />
 	</Language>
 </HuntPointSystem>
