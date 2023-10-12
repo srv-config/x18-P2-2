@@ -48,11 +48,12 @@
 	EVENTBAG_LORDMIX = 25
 	EVENTBAG_KUNDUN = 26
 	EVENTBAG_ACHERONGUARDIAN = 27
--- 28
-	EVENTBAG_CS_WINNER_GUILDMASTER = 29
-	EVENTBAG_ARCA_WINNER_GUILDMASTER = 30
-	EVENTBAG_MAPLELEAF = 31
--- 32 - 33
+	EVENTBAG_CS_LOSER_GUILDMASTER = 28
+	EVENTBAG_CS_LOSER_SUPPORT_GUILDMASTER = 29
+	EVENTBAG_CS_WINNER_GUILDMASTER = 30
+	EVENTBAG_CS_WINNER_SUPPORT_GUILDMASTER = 31
+	EVENTBAG_ARCA_LOSER_GUILDMASTER = 32
+	EVENTBAG_ARCA_WINNER_GUILDMASTER = 33
 	EVENTBAG_ITR_1 = 34 -- Illusion Temple Renewal 1
 	EVENTBAG_ITR_2 = 35 -- Illusion Temple Renewal 2
 	EVENTBAG_ITR_3 = 36 -- Illusion Temple Renewal 3
@@ -98,6 +99,7 @@
 	EVENTBAG_IWC_PLAYER = 79
 	EVENTBAG_ITL = 80
 	EVENTBAG_ITL_WINNER = 81
+	EVENTBAG_MAPLELEAF = 82
 	
 -- Define Item Kind A values
 	ITEM_KIND_A_COMMON = 0
@@ -373,7 +375,7 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_MONSTER, 0,930,'Monster_(930)_Elite_Bloody_Wolf_of_Fresh_Blood') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0,931,'Monster_(931)_Elite_Bloody_Beam_Knight') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0,932,'Monster_(932)_Elite_Bloody_Tantalus') -- DropFunction /2/
-
+	
 -- ====================================================================
 -- EventBags -- BagType, EventID, 0, 'FileName'
 -- ====================================================================
@@ -403,11 +405,12 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 25,0, 'Mix_Senior_Reward') -- DropFunction /4/
 	AddItemBag(BAG_EVENT, 26,0, 'Monster_(275)_Kundun') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 27,0, 'Event_AcheronGuardian_Reward') -- DropFunction /3/
--- 28
-	AddItemBag(BAG_EVENT, 29,0, 'Event_CastleSiege_Winner_GuildMaster_Reward') -- DropFunction /3/
-	AddItemBag(BAG_EVENT, 30,0, 'Event_ArcaBattle_Winner_GuildMaster_Reward') -- DropFunction /3/
-	AddItemBag(BAG_EVENT, 31,0, 'Mix_Maple_Leaf_Reward') -- DropFunction /4/
--- 32 - 33
+	AddItemBag(BAG_EVENT, 28,0, 'Event_CastleSiege_Loser_Main_GuildMaster_Reward') -- DropFunction /3/
+	AddItemBag(BAG_EVENT, 29,0, 'Event_CastleSiege_Loser_Alliance_GuildMaster_Reward') -- DropFunction /3/
+	AddItemBag(BAG_EVENT, 30,0, 'Event_CastleSiege_Winner_Main_GuildMaster_Reward') -- DropFunction /3/
+	AddItemBag(BAG_EVENT, 31,0, 'Event_CastleSiege_Winner_Alliance_GuildMaster_Reward') -- DropFunction /3/
+	AddItemBag(BAG_EVENT, 32,0, 'Event_ArcaBattle_Loser_GuildMaster_Reward') -- DropFunction /3/
+	AddItemBag(BAG_EVENT, 33,0, 'Event_ArcaBattle_Winner_GuildMaster_Reward') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 34,0, 'Event_IllusionTemple_Renewal_1') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 35,0, 'Event_IllusionTemple_Renewal_2') -- DropFunction /3/
 	AddItemBag(BAG_EVENT, 36,0, 'Event_IllusionTemple_Renewal_3') -- DropFunction /3/
@@ -441,7 +444,8 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_EVENT, 76,0, 'Item_(14,464,0)_[Lvl5]_Monster_Soul_Converter') -- DropFunction /3/
 -- 77 - 79 IWC
 	AddItemBag(BAG_EVENT, 80,0, 'Event_IllusionTemple_League_Match_Win') -- DropFunction /3/
-	AddItemBag(BAG_EVENT, 81,0, 'Event_IllusionTemple_League_Tournament_Win') -- DropFunction /3/	
+	AddItemBag(BAG_EVENT, 81,0, 'Event_IllusionTemple_League_Tournament_Win') -- DropFunction /3/
+	AddItemBag(BAG_EVENT, 82,0, 'Mix_Maple_Leaf_Reward') -- DropFunction /4/
 
 -- Bags for purpose of Cherry Blossom Mix System
 	AddItemBag(BAG_EVENT, 13,0, 'Mix_Cherry_Blossom_Red_Reward') -- DropFunction /4/

@@ -78,45 +78,57 @@
 // ### FormulaData::Character::Formula ###
 //	ID: Next unique ID of formula, starts from 0
 //	Data: The formula data, no spaces
-//		0: Berserker skill conversion
-//		1: Berserker Attack Speed Increase
-//		2: Berserker HP decrease
-//		3: Berserker Defense deduction
-//		4: Darkness skill conversion
-//		5: Darkness Defense addition
-//		6: Darkness HP decrease
-//		7: Weakness Attack Decrease
-//		8: Innovation Defense Decrease
-//		17: Mastery Shield Damage Reduction Taken Instead
-//		30: Spiral Charge Attack Damage Increase
-//		31: Spiral Charge Defense Increase
-//		32: Crusher Charge Attack Speed Increase
-//		33: Crusher Charge Defense Increase
-//		34: Elemental Charge Wizardry Increase
-//		35: Elemental Charge Defense Increase
-//		36: Elemental Damage Increase
-//		37: Duration time for formulas 36 and 38
-//		38: Elemental Defense Increase
-//		39: Dex Booster Duration Time
-//		40: Dex Booster Attack Speed Increase
-//		42: Illusion Blade Attack Damage
+//		~ 0: Berserker skill conversion
+//		~ 1: Berserker Attack Speed Increase
+//		~ 2: Berserker HP decrease
+//		~ 3: Berserker Defense deduction
+//		~ 4: Darkness skill conversion
+//		~ 5: Darkness Defense addition
+//		~ 6: Darkness HP decrease
+//		~ 7: Weakness Attack Decrease
+//		~ 8: Innovation Defense Decrease
+//		~ 17: Mastery Shield Damage Reduction Taken Instead
+//		~ 30: Spiral Charge Attack Damage Increase
+//		~ 31: Spiral Charge Defense Increase
+//		~ 32: Crusher Charge Attack Speed Increase
+//		~ 33: Crusher Charge Defense Increase
+//		~ 34: Elemental Charge Wizardry Increase
+//		~ 35: Elemental Charge Defense Increase
+//		~ 36: Elemental Damage Increase
+//		~ 37: Duration time for formulas 36 and 38
+//		~ 38: Elemental Defense Increase
+//		~ 39: Dex Booster Duration Time
+//		~ 40: Dex Booster Attack Speed Increase
+//		~ 42: Illusion Blade Attack Damage
 //
 // ### FormulaData::CombatPower::Formula ###
 //	ID: Next unique ID of formula, starts from 0
 //	Data: The formula data, no spaces
-//		0: Combat Power base calculation for item of level lower than 11 (outputs CombatPowerResult)
-//		1: Combat Power base calculation for item of level greater or equal than 11 (outputs CombatPowerResult)
-//		2: Combat Power adjustment formula for normal item of level lower than 11
-//		3: Combat Power adjustment formula for normal item of level greater or equal than 11
-//		4: Combat Power adjustment formula for excellent item of level lower than 11
-//		5: Combat Power adjustment formula for excellent item of level greater or equal than 11
-//		6: Combat Power adjustment formula for ancient item
-//		7: Two weapons Combat Power adjustment formula: CombatPowerAttackDamage = TwoWeaponCombatPower * Constant / 100
-//		8: One weapon Combat Power adjustment formula: CombatPowerAttackDamage = OneWeaponCombatPower * Constant / 100
-//		9: Base Combat Power formula for Knight class
-//		10: Base Combat Power formula for Magic Gladiator class
-//		11: Base Combat Power formula for Rage Fighter class
-//		12: Base Combat Power formula for Slayer class
+//		~ 0: Combat Power base calculation for item of level lower than 11 (outputs CombatPowerResult)
+//		~ 1: Combat Power base calculation for item of level greater or equal than 11 (outputs CombatPowerResult)
+//		~ 2: Combat Power adjustment formula for normal item of level lower than 11
+//		~ 3: Combat Power adjustment formula for normal item of level greater or equal than 11
+//		~ 4: Combat Power adjustment formula for excellent item of level lower than 11
+//		~ 5: Combat Power adjustment formula for excellent item of level greater or equal than 11
+//		~ 6: Combat Power adjustment formula for ancient item
+//		~ 7: Two weapons Combat Power adjustment formula: CombatPowerAttackDamage = TwoWeaponCombatPower * Constant / 100
+//		~ 8: One weapon Combat Power adjustment formula: CombatPowerAttackDamage = OneWeaponCombatPower * Constant / 100
+//		~ 9: Base Combat Power formula for Knight class
+//		~ 10: Base Combat Power formula for Magic Gladiator class
+//		~ 11: Base Combat Power formula for Rage Fighter class
+//		~ 12: Base Combat Power formula for Slayer class
+//
+// ### FormulaData::LevelExp::Formula ###
+//	ID: Next unique ID of formula, starts from 0
+//	Data: The formula data, no spaces
+//		~ 0: Regular level exp for range 1 to 255
+//		~ 1: Regular level exp for range 255 to max regular level
+//		~ 2: Master level exp for range 1 to 600
+//		~ 3: Master level exp for range 601 to 770
+//		~ 4: Master level exp for range 771 to 800
+//		~ 5: Master level exp for range 801 to 999
+//		~ 6: Master level exp for range 1000 to 1449
+//		~ 7: Master level exp for range 1450 to max master level
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
@@ -741,4 +753,14 @@
 		<Formula ID="11" Data="12+(%d/100)+(%d/100)" /> <!-- Agility, Vitality -->
 		<Formula ID="12" Data="10+(%d/100)" /> <!-- Agility -->
 	</CombatPower>
+	<LevelExp>
+		<Formula ID="0" Data="(9+%d)*%d*%d*10" /> <!-- RegularLevel, RegularLevel, RegularLevel -->
+		<Formula ID="1" Data="((9+%d)*%d*%d*10)+((9+(%d-255))*(%d-255)*(%d-255)*1000)" /> <!-- RegularLevel, RegularLevel, RegularLevel, RegularLevel, RegularLevel -->
+		<Formula ID="2" Data="((((9+%d)*%d*%d*10)+((9+(%d-255))*(%d-255)*(%d-255)*1000)-3892250000)/2)" /> <!-- MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel -->
+		<Formula ID="3" Data="(((((9+%d)*%d*%d*10)+((9+(%d-255))*(%d-255)*(%d-255)*1000)-3892250000)/2)*(1+(1.2*((%d-600)^2))/100000))" /> <!-- MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel -->
+		<Formula ID="4" Data="(((((9+%d)*%d*%d*10)+((9+(%d-255))*(%d-255)*(%d-255)*1000)-3892250000)/2)*(1+(1.2*((%d-(600-(0.3*((%d-770)*(%d-770)))))^2))/100000))" /> <!-- MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel -->
+		<Formula ID="5" Data="((%d-800)*19024359459)+(300000000*(%d-801)*((%d-800)/2))" /> <!-- MasterLevel, MasterLevel, MasterLevel -->
+		<Formula ID="6" Data="(((%d-800)*19024359459)+(300000000*(%d-801)*((%d-800)/2))+(1200000000*(%d-999)*((%d-1000)/2)))" /> <!-- MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel -->
+		<Formula ID="7" Data="(197413333648350+(((%d-1450)*753724359459)+(1500000000*(%d-1450)*(%d-1449)/2)+(150001*(%d-1450)*(%d-1449)/2)*(((%d-1450)*(%d-1449)/2)^1.4)))" /> <!-- MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel -->
+	</LevelExp>
 </FormulaData>
