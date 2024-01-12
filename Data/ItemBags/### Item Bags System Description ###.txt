@@ -132,7 +132,12 @@
 //	Durability: Durability is optional attribute, if used then defined value will be used, otherwise generated automatically, 0-255
 //	Skill: 0 - no Skill, -1 - Random (50/50% chance), 1 - with Skill
 //	Luck: 0 - no Luck, -1 - Random (50/50% chance), 1 - with Luck
-//	Option: 0 - no Option, -1 - Random, 1,2,3,4,5,6,7 - with specified option - +4,+8,+12,+16,+20,+24,+28
+//	Option:
+//		~ -1: random, up to 16 or 28, depending on server setting
+//		~ -2: official and original option selection, complex to explain, depending on many aspects, max option value for this setting is +12, applies to excellent items, pendants and rings
+//		~ 0: no option
+//		~ 1,2,3,4,5,6,7: with specified option (+4,+8,+12,+16,+20,+24,+28), check ItemDropRateControl.xml::OptionDropMode for more info
+//
 //	Exc:
 //		Excellent Options:
 //			-1: No exc option
